@@ -26,7 +26,7 @@ Embed the icon in your README or docs:
 ```
 
 
-PiForge™ and the PiForge logo are unregistered trademarks of Matthew [Last Name].
+PiForge™ and the PiForge logo are unregistered trademarks of Matthew Bergstrom.
 Use of these marks is permitted only to refer to the PiForge project.
 Any other use, including use in derivative branding, is prohibited without written permission.
 
