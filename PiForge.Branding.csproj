@@ -6,11 +6,12 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <!-- <PackageLicenseFile>LICENSE</PackageLicenseFile> -->
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>1.0.1</PackageVersion>
         <PackageId>PiForge.Branding</PackageId>
         <Authors>m-bergstrom</Authors>
         <IncludeBuildOutput>false</IncludeBuildOutput>
         <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+        <PackageIcon>piforge_dark_rounded_128x128.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
@@ -23,6 +24,7 @@
     <ItemGroup>
         <None Include="README.md" Pack="true" PackagePath="\" />
         <None Include="LICENSE" Pack="true" PackagePath="\" />
+        <None Include="contentFiles\any\any\piforge_dark_rounded_128x128.png" Pack="true" PackagePath="\" />
     </ItemGroup>
 
 </Project>
