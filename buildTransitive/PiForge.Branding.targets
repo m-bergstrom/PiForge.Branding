@@ -1,0 +1,16 @@
+<Project>
+
+
+    <!-- <Target Name="DumpBrandingIconPath" AfterTargets="Build">
+        <Message Text=">> _BrandingIconPath = '$(_BrandingIconPath)'" Importance="High"/>
+        <Error Condition="!Exists('$(_BrandingIconPath)')" Text="Branding icon not found at $(_BrandingIconPath)"/>
+    </Target> -->
+
+    <Target Name="CopyBrandingIcon" BeforeTargets="GenerateNuspec">
+         <!-- <Message Text="🛠 CopyBrandingIcon running on Pack…" Importance="High" /> -->
+        <!-- Copy the external icon into this project’s obj directory -->
+        <Copy SourceFiles="$(_BrandingIconPath)" DestinationFolder="$(IntermediateOutputPath)" />
+    </Target>
+
+
+</Project>

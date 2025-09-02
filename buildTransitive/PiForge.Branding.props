@@ -1,0 +1,25 @@
+<Project>
+  <!-- 1) Compute the absolute path to the icon shipped under contentFiles -->
+  <PropertyGroup>
+    <!--
+       MSBuildThisFileDirectory points to your buildTransitive folder.
+       Go up two levels to land in the nupkg root, then into contentFiles/any/any
+    -->
+    <_BrandingIconPath>$(MSBuildThisFileDirectory)..\contentFiles\any\any\piforge_dark_rounded_128x128.png</_BrandingIconPath>
+  </PropertyGroup>
+
+  <!-- 2) Tell the consumer to pack that file at the root of its nupkg -->
+  <ItemGroup>
+      <None Include="$(IntermediateOutputPath)piforge_dark_rounded_128x128.png">
+          <Pack>true</Pack>
+          <PackagePath></PackagePath>
+          <Visible>false</Visible>
+      </None>
+  </ItemGroup>
+
+  <!-- 3) Set the PackageIcon property so `dotnet pack` uses it -->
+  <PropertyGroup>
+    <PackageIcon>piforge_dark_rounded_128x128.png</PackageIcon>
+  </PropertyGroup>
+
+</Project>

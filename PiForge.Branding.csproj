@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageProjectUrl>https://github.com/m-bergstrom/PiForge.Branding</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <!-- <PackageLicenseFile>LICENSE</PackageLicenseFile> -->
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageId>PiForge.Branding</PackageId>
+        <Authors>m-bergstrom</Authors>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="contentFiles\any\any\piforge_dark_rounded_128x128.png" Pack="true" PackagePath="contentFiles/any/any" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="buildTransitive\PiForge.Branding.props" Pack="true" PackagePath="buildTransitive" />
+        <Content Include="buildTransitive\PiForge.Branding.targets" Pack="true" PackagePath="buildTransitive" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+        <None Include="LICENSE" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
