@@ -4,15 +4,15 @@
 
 _Visual identity assets for the PiForge suite_
 
-PiForge.Branding provides scalable, thematically consistent icons, badges, and lore fragments for use across PiForge NuGet packages, documentation portals, and tooling. This package ensures visual cohesion and reinforces the elemental philosophy behind PiForge: duality, creativity, and rigor.
+PiForge.Branding provides thematically consistent icons and  for use across PiForge NuGet packages, documentation portals, and tooling. This package ensures visual cohesion and reinforces the elemental philosophy behind PiForge: the duality of creativity and rigor.
 
 ---
 
 ## 📦 Contents
 
 - `icons/` — Core and variant icons (light, dark, SVG, PNG)
-- `badges/` — Badge templates for NuGet, build status, and feature flags
-- `lore-snippets/` — Short thematic fragments for documentation headers and README intros
+<!-- - `badges/` — Badge templates for NuGet, build status, and feature flags
+- `lore-snippets/` — Short thematic fragments for documentation headers and README intros -->
 
 ---
 
@@ -22,7 +22,7 @@ PiForge.Branding provides scalable, thematically consistent icons, badges, and l
 Embed the icon in your README or docs:
 
 ```markdown
-![PiForge Icon](packages/PiForge.Branding/content/icons/piforge_dark_rounded_128x128.png)
+![PiForge Icon](https://raw.githubusercontent.com/m-bergstrom/PiForge.Branding/main/sources/icons/piforge_dark_rounded_128x128.png)
 ```
 
 
