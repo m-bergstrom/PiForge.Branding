@@ -10,16 +10,18 @@
 
   <!-- 2) Tell the consumer to pack that file at the root of its nupkg -->
   <ItemGroup>
-      <None Include="$(IntermediateOutputPath)piforge_dark_rounded_128x128.png">
-          <Pack>true</Pack>
-          <PackagePath></PackagePath>
-          <Visible>false</Visible>
-      </None>
+    <None Include="$(IntermediateOutputPath)piforge_dark_rounded_128x128.png">
+      <Pack>true</Pack>
+      <PackagePath></PackagePath>
+      <Visible>false</Visible>
+    </None>
   </ItemGroup>
 
   <!-- 3) Set the PackageIcon property so `dotnet pack` uses it -->
   <PropertyGroup>
     <PackageIcon>piforge_dark_rounded_128x128.png</PackageIcon>
+    <Authors>Matthew Bergstrom</Authors>
+    <Copyright>© 2025 Matthew Bergstrom</Copyright>
   </PropertyGroup>
 
 </Project>

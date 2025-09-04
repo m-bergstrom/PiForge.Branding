@@ -3,15 +3,18 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <PackageProjectUrl>https://github.com/m-bergstrom/PiForge.Branding</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/m-bergstrom/PiForge.Branding</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <!-- <PackageLicenseFile>LICENSE</PackageLicenseFile> -->
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <PackageVersion>1.0.3</PackageVersion>
+        <PackageVersion>1.0.4</PackageVersion>
         <PackageId>PiForge.Branding</PackageId>
-        <Authors>m-bergstrom</Authors>
+        <Authors>Matthew Bergstrom</Authors>
+        <Copyright>© 2025 Matthew Bergstrom</Copyright>
         <IncludeBuildOutput>false</IncludeBuildOutput>
         <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
         <PackageIcon>piforge_dark_rounded_128x128.png</PackageIcon>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
